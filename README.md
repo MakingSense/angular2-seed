@@ -1,29 +1,27 @@
-# angular2-seed
-  
-The start point to rock with Angular2 and NodeJS.
+# Angular2Seed
 
-## Installation/Execution
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
 
-### Installing and Running the Project
-To install please execute: 
-`npm install` over the root of the project
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-We use `angular-cli` to generate the structure and blueprints. See more details [here](https://github.com/angular/angular-clihttps://github.com/angular/angular-cli). 
+## Code scaffolding
 
-To execute:
-`ng server` this will start the project doing all the tasks (lint, tests, etc, and also keeping the watcher active)
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
-## Tech Stack
+## Build
 
-### Backend
-- Node
-- Express
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-### Frontend
-- Angular2
+## Running unit tests
 
-### Testing
-- Karma
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### Javascript version
-- ECMA2015/ES6
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
