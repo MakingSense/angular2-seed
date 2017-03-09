@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #f4f6f7;
+}
+
+footer {
+  position: absolute;
+  bottom: 2px;
+}
+
+nav {
+  background-color: #3b5998;
+  height: 40px;
+  padding-top: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 14px;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: #C5C2BF;
+}
