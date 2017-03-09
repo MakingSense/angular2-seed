@@ -5,18 +5,18 @@ import {
   it,
   inject
 } from '@angular/core/testing';
-import { Angular2SeedAppComponent } from '../app/angular2-seed.component';
+import { AppComponent } from '../app/app.component';
 
-beforeEachProviders(() => [Angular2SeedAppComponent]);
+beforeEachProviders(() => [AppComponent]);
 
 describe('App: Angular2Seed', () => {
   it('should create the app',
-      inject([Angular2SeedAppComponent], (app: Angular2SeedAppComponent) => {
+      inject([AppComponent], (app: AppComponent) => {
     expect(app).toBeTruthy();
   }));
 
   it('should have as title \'angular2-seed works!\'',
-      inject([Angular2SeedAppComponent], (app: Angular2SeedAppComponent) => {
+      inject([AppComponent], (app: AppComponent) => {
     expect(app.title).toEqual('angular2-seed works!');
   }));
 });

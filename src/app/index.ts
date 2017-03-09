@@ -1,2 +1,2 @@
 export {environment} from './environment';
-export {Angular2SeedAppComponent} from './angular2-seed.component';
+export {AppComponent} from './app.component';
